@@ -1,5 +1,3 @@
-using Movie.Service.Contracts;
-
 namespace Movie.Service.Contracts
 {
     public interface IServiceManager

@@ -25,7 +25,9 @@ namespace MovieAPI
             builder.Services.AddScoped<IActorService, ActorService>();
             builder.Services.AddScoped<IServiceManager, ServiceManager>();
             builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-            builder.Services.AddControllers().AddNewtonsoftJson();
+            builder.Services.AddControllers()
+                   .AddApplicationPart(typeof(Movie.Presentation.Controllers.ActorsController).Assembly)
+                   .AddNewtonsoftJson();
             builder.Services.AddOpenApi();
             builder.Services.AddScoped<IGenreRepository, GenreRepository>();
 

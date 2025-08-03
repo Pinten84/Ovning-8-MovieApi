@@ -1,5 +1,4 @@
 using MovieCore.DomainContracts;
-using Microsoft.EntityFrameworkCore;
 
 namespace MovieData
 {

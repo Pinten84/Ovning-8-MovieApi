@@ -1,11 +1,8 @@
-using Xunit;
 using Moq;
 using Microsoft.AspNetCore.Mvc;
-using MovieAPI.Controllers;
+using Movie.Presentation.Controllers;
 using Movie.Service.Contracts;
 using MovieCore.DTOs;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
 public class MoviesControllerTests
 {

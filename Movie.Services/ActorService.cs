@@ -1,7 +1,6 @@
 using MovieCore.DomainContracts;
 using MovieCore.Entities;
 using Movie.Service.Contracts;
-using MovieCore.DTOs;
 
 namespace Movie.Services
 {

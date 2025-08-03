@@ -29,6 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Movie.Presentation\Movie.Presentation.csproj" />
     <ProjectReference Include="..\Movie.Services\Movie.Services.csproj" />
     <ProjectReference Include="..\MovieAPI\MovieAPI.csproj" />
     <ProjectReference Include="..\MovieCore\MovieCore.csproj" />

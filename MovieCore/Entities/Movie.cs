@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-
 namespace MovieCore.Entities
 {
     public class Movie

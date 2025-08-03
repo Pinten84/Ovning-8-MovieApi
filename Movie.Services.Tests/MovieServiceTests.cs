@@ -1,13 +1,7 @@
-﻿using Xunit;
-using Moq;
+﻿using Moq;
 using AutoMapper;
-using Movie.Services;
 using MovieCore.DomainContracts;
 using MovieCore.DTOs;
-using MovieCore.Entities;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using System;
 
 namespace Movie.Services.Tests;
 

@@ -1,5 +1,3 @@
-using MovieCore.DTOs;
-
 namespace Movie.Service.Contracts
 {
     public interface IReviewService

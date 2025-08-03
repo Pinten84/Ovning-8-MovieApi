@@ -1,9 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Movie.Service.Contracts;
-using MovieCore.DTOs;
 using MovieCore.Entities;
 
-namespace MovieAPI.Controllers
+namespace Movie.Presentation.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

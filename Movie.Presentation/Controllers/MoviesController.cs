@@ -2,8 +2,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.JsonPatch;
 using Movie.Service.Contracts;
 using MovieCore.DTOs;
+using Microsoft.AspNetCore.Http;
 
-namespace MovieAPI.Controllers
+namespace Movie.Presentation.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

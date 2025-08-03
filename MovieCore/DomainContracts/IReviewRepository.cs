@@ -1,7 +1,4 @@
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using MovieCore.Entities;
-using MovieCore.DomainContracts;
 
 namespace MovieCore.DomainContracts
 {

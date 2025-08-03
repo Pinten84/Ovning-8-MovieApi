@@ -1,4 +1,3 @@
-using MovieCore.DomainContracts;
 using MovieCore.Entities;
 using Microsoft.EntityFrameworkCore;
 
